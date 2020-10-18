@@ -26,7 +26,7 @@ server.use(cors())
 
 // Connect to MongoDB
 mongoose.connect(
-    "mongodb://localhost/imgur",
+    "MONGO_URI",
     { useNewUrlParser: true },
     () => {
       console.log("connected to DB");
